@@ -1,0 +1,16 @@
+{
+  "name": "moldflow-mat-generator",
+  "version": "0.1.0",
+  "description": "Generate Moldflow .mat material files (Cross-WLF viscosity model + 2-domain modified Tait PVT model) from screenshots of Moldflow's material database editor.",
+  "author": {
+    "name": "Alexander Bakharev"
+  },
+  "license": "MIT",
+  "keywords": [
+    "moldflow",
+    "materials",
+    "cross-wlf",
+    "tait-pvt",
+    "injection-molding"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "moldflow-mat-generator",
+  "owner": {
+    "name": "Alexander Bakharev"
+  },
+  "plugins": [
+    {
+      "name": "moldflow-mat-generator",
+      "source": "./",
+      "description": "Generate Moldflow .mat material files from screenshots of the material database editor.",
+      "author": {
+        "name": "Alexander Bakharev"
+      },
+      "license": "MIT",
+      "keywords": [
+        "moldflow",
+        "materials",
+        "cross-wlf",
+        "tait-pvt",
+        "injection-molding"
+      ]
+    }
+  ]
+}

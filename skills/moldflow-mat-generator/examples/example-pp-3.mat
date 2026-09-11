@@ -1,0 +1,17 @@
+# Moldflow material data file
+# Format: Keyword = value(s)  (spaces or commas as separators, # for comments)
+
+Manufacturer    = Example Manufacturer C
+Trade_Name      = Example-PP-3
+Family          = POLYPROPYLENES (PP)
+Grade_Code      = EXAMPLE-C
+Filler          = 25% Talc Filled
+
+# Cross-WLF viscosity model coefficients
+# Order: n  Tau*(Pa)  D1(Pa.s)  D2(K)  D3(K/Pa)  A1  A2~(K)
+Viscosity_Model = 0.3540  14700  8.26e+12  263.15  0  26.91  51.6
+
+# 2-domain modified Tait PVT model coefficients
+# Order: b5(K)  b6(K/Pa)  b1m(m3/kg)  b2m(m3/kg.K)  b3m(Pa)  b4m(1/K)
+#        b1s(m3/kg)  b2s(m3/kg.K)  b3s(Pa)  b4s(1/K)  [b7(m3/kg)  b8(1/K)  b9(1/Pa)]
+PVT_Model = 448.15  6.41e-08  0.001196  8.052e-07  8.9315e+07  0.004762  0.001129  5.73e-07  1.16240e+08  0.004498  7.02e-05  0.08615  9.214e-09
